@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Agency Landing Page</title>
+    <style>
+        /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+article {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+ul li img {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+    background-color: #003366;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #002244;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 40px 0;
+}
+
+footer h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer form {
+    text-align: center;
+}
+
+footer input[type="email"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #003366;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer input[type="submit"]:hover {
+    background-color: #ffaa00;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    article {
+        text-align: left;
+    }
+
+    ul li {
+        display: block;
+    }
+
+    ul li img {
+        margin-bottom: 10px;
+    }
+
+    footer input[type="email"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    article h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    footer h3 {
+        font-size: 1.5em;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Real Estate Agency</h1>
+        <nav>
+            <ul>
+                <li><a href="#" aria-label="Home Page">Home</a></li>
+                <li><a href="#" aria-label="About Us">About</a></li>
+                <li><a href="#" aria-label="Contact Us">Contact</a></li>
+                <li><a href="signin.html" aria-label="Sign In to Account">Sign In</a></li>
+                <li><a href="login.html" aria-label="Login to Account">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Banner with Real Estate Image -->
+
+
+    <!-- Main Body Section -->
+    <main>
+        <!-- Welcome Message with Another Image -->
+        <article>
+            <h2>Welcome to Our Real Estate Agency</h2>
+            <p>Your trusted partner in finding the perfect property. Whether you're buying, selling, or renting, we've
+                got you covered!</p>
+            <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDI1fHxyZWFsJTIwZXN0YXRlfGVufDB8fHx8MTYxODM4NjM2MQ&ixlib=rb-1.2.1&q=80&w=1080"
+                alt="Modern apartment buildings" width="100%" />
+        </article>
+
+        <!-- Key Features Section with Image Icons -->
+        <section>
+            <h2>Our Key Features</h2>
+            <ul>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/1946/1946436.png" alt="Home Icon" width="24"> Wide
+                    range of properties available</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/786/786354.png" alt="Agent Icon" width="24"> Expert
+                    agents ready to help</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/1747/1747045.png" alt="Service Icon" width="24">
+                    Personalized service tailored to your needs</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/2521/2521692.png" alt="Money Icon" width="24">
+                    Competitive pricing and transparent deals</li>
+                <li><img src="https://cdn-icons-png.flaticon.com/512/2485/2485307.png" alt="Search Icon" width="24">
+                    Easy property search and virtual tours</li>
+            </ul>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section>
+            <h2>Start Your Property Search Today!</h2>
+            <p>Find your dream home or ideal property with our easy-to-use platform. We offer virtual tours, detailed
+                listings, and 24/7 customer support.</p>
+            <a href="https://www.magicbricks.com/new-projects-Mumbai">Browse Properties</a>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Contact Information Section -->
+        <section>
+            <h3>Contact Us</h3>
+            <ul>
+                <li>Email: <a href="mailto:info@realestateagency.com">info@realestateagency.com</a></li>
+                <li>Phone: <a href="tel:+1234567890">+123-456-7890</a></li>
+                <li>Address: 1234 Street, City, Country</li>
+            </ul>
+        </section>
+
+        <!-- Newsletter Subscription Section -->
+        <section>
+            <h3>Stay Updated</h3>
+            <form>
+                <fieldset>
+                    <legend>Subscribe to our newsletter for the latest updates:</legend>
+                    <label for="newsletter-email">Enter your email:</label><br>
+                    <input type="email" id="newsletter-email" name="email" placeholder="you@example.com"
+                        required><br><br>
+                    <input type="submit" value="Subscribe">
+                </fieldset>
+            </form>
+        </section>
+    </footer>
+
+</body>
+
+</html>
